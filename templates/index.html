@@ -10,9 +10,44 @@
     </head>
     <body>
     {%block content%}
-        <div id="sitetitle">
-            <h1 id="title">Aether E-Commerce</h1>
-        </div>     
+        <div class="sitetitle">
+            <img src="{{ url_for('static', filename = 'assets/siteicon.png')}}" alt = "Aether Logo" width = "150", height = "150" align = "left">
+            <h2 class="title">Aether E-Commerce</h2>
+        </div>
+        <div class = "sitetitle">
+            <div class = "tab">
+                <button class = "tablink" onclick="home()">Home</button>
+            </div>
+            <div class = "tab">
+                <button class = "tablinka" onclick="sales()">Sales</button>
+            </div>
+            <div class = "tab">
+                <button class = "tablinkb" onclick="bulk()">Bulk</button>
+            </div>
+            <div class = "tab">
+                <button class = "tablinkc" onclick="balance()">Balance</button>
+            </div>
+            <div class = "tab">
+                <button class = "tablinkd" onclick="contacts()">Contacts</button>
+            </div>
+            <div class = "tab">
+                <button class = "tablinke" onclick="account()">Account</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="boxa">
+                <h6 class="stitle">On Sale</h6>
+                <div class="boxina"></div>
+            </div> 
+            <div class="boxb">
+                <h6 class = "stitle">Bulk Deals</h6>
+                <div class="boxinb"></div>
+            </div> 
+        </div>
+        <div class="boxc">
+            <h6 class="btitle">Sales Space</h6>
+            <div class = "boxinc"></div>
+        </div>
     {%endblock%}
     </body>
     <script src="{{ url_for('static', filename = 'functions.js')}}"></script>

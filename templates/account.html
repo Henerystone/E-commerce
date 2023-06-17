@@ -1,0 +1,35 @@
+{%extends 'index.html'%}
+{%block content%}
+    <div class = "sitetitle">
+        <h1 class="title">Account</h1>
+    </div>
+    <div class = "sitetitle">
+        <div class = "tab">
+            <button class = "tablink" onclick="home()">Home</button>
+        </div>
+        <div class = "tab">
+            <button class = "tablinka" onclick="sales()">Sales</button>
+        </div>
+        <div class = "tab">
+            <button class = "tablinkb" onclick="bulk()">Bulk</button>
+        </div>
+        <div class = "tab">
+            <button class = "tablinkc" onclick="balance()">Balance</button>
+        </div>
+        <div class = "tab">
+            <button class = "tablinkd" onclick="contacts()">Contacts</button>
+        </div>
+        <div class = "tab">
+            <button class = "tablinke" onclick="account()">Account</button>
+        </div>
+    </div>
+    <div class="boxc">
+        <br><br><br>
+        <img src="{{ url_for('static', filename = 'assets/user.png')}}" alt = "User Image" width = "150", height = "150" align = "center"><br><br>
+        <label for="name" class="inpt">Name: </label><br><br>
+        <input type="text" id="name" class="inptans"><br><br>
+        <label for="pass" class="inpt">Password: </label><br><br>
+        <input type="text" id="pass" class="inptans"><br><br>
+        <button class="enter" onclick="enter()">Enter</button>
+    </div> 
+{%endblock%}

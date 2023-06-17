@@ -1,13 +1,228 @@
 *{
     padding: 0;
     margin: 0;
-    color: #1f1c24;
 }
 
-#title{
+body{
+    background-color: #1f1c24;
+    overflow: auto;
+}
+
+.container{
+    display: flex;
+}
+
+.title{
     color:#aade87;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 95px;
+    text-align: center;
 }
 
-#sitetitle{
-    color:#0084ff;
+.sitetitle{
+    background-color:#330080;
+    text-align: center;
+    overflow: hidden;
+    height: 120px;
+    width: 1175px;
+    margin: 50px;
+}
+
+.stitle{
+    color:#aade87;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+.boxa{
+    background-color: #330080;
+    text-align: center;
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+}
+
+.boxina{
+    background-color: #330080;
+    text-align: left;
+    overflow: auto;
+    height: 350px;
+    width: 400px;
+    margin: 50px;
+}
+
+.boxb{
+    background-color: #330080;
+    text-align: right;
+    overflow: hidden;
+    height: 400px;
+    width: 900px;
+    margin: 50px;
+}
+
+.boxinb{
+    background-color: #330080;
+    text-align: right;
+    overflow: auto;
+    height: 350px;
+    width: 900px;
+    margin: 50px;
+}
+
+.boxc{
+    background-color: #330080;
+    text-align: center;
+    overflow: auto;
+    height: 1175px;
+    width: 1175px;
+    margin: 50px;
+}
+
+.boxinc{
+    background-color: #330080;
+    text-align: left;
+    overflow: auto;
+    height: 1125px;
+    width: 1175px;
+    margin: 50px;
+}
+
+.btitle{
+    color:#aade87;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.tab{
+    background-color: #330080;
+    text-align: right;
+    overflow: hidden;
+    height: 50px;
+    width: 90px;
+    padding: 50px;
+}
+
+.tablink{
+    background-color: #ff8b06;
+    text-align: center;
+    color: #aade87;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    overflow: hidden;
+    height: 100px;
+    width: 150px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 230px;
+    left: 80px;
+}
+
+.tablinka{
+    background-color: #ff8b06;
+    text-align: center;
+    color: #aade87;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    overflow: hidden;
+    height: 100px;
+    width: 150px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 230px;
+    left: 275px;
+}
+
+.tablinkb{
+    background-color: #ff8b06;
+    text-align: center;
+    color: #aade87;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    overflow: hidden;
+    height: 100px;
+    width: 150px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 230px;
+    left: 470px;
+}
+
+.tablinkc{
+    background-color: #ff8b06;
+    text-align: center;
+    color: #aade87;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    overflow: hidden;
+    height: 100px;
+    width: 150px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 230px;
+    left: 665px;
+}
+
+.tablinkd{
+    background-color: #ff8b06;
+    text-align: center;
+    color: #aade87;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    overflow: hidden;
+    height: 100px;
+    width: 150px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 230px;
+    left: 860px;
+}
+
+.tablinke{
+    background-color: #ff8b06;
+    text-align: center;
+    color: #aade87;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    overflow: hidden;
+    height: 100px;
+    width: 150px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 230px;
+    left: 1055px;
+}
+
+.inpt{
+    color: #aade87;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+.inptans{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+.enter{
+    background-color:#ff8b06;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    height: 100px;
+    width: 150px;
 }
