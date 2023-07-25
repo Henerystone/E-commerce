@@ -27,9 +27,9 @@
         <br><br><br>
         <img src="{{ url_for('static', filename = 'assets/user.png')}}" alt = "User Image" width = "150", height = "150" align = "center"><br><br>
         <label for="name" class="inpt">Name: </label><br><br>
-        <input type="text" id="name" class="inptans"><br><br>
+        <input type="text" id="name" name ="mon" class="inptans"><br><br>
         <label for="pass" class="inpt">Password: </label><br><br>
-        <input type="text" id="pass" class="inptans"><br><br>
+        <input type="Password" id="pass" class="inptans" name="KEY"><br><br>
         <button class="enter" onclick="enter()">Enter</button>
     </div> 
 {%endblock%}

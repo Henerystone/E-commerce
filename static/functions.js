@@ -1,5 +1,3 @@
-fetch("{{ url_for('static', filename = '/users.json')}}")
-
 function home(){
     location.href="http://127.0.0.1:3000/aether/";
 }
@@ -25,10 +23,21 @@ function account(){
 }
 
 function enter(){
-    var id_name = document.getElementById("name").innerHTML;
-    var id_pass = document.getElementById("pass").innerHTML;
-    JSON.stringify(id_name);
-    JSON.stringify(id_pass);
-    location.href = "http://127.0.0.1:3000/aether/"
+    var id_name = document.getElementById("name").value;
+    var id_pass = document.getElementById("pass").value;
+    console.log(id_name);
+    console.log(id_pass);
 }
 
+function contact_store(){
+    var name = document.getElementById("namea").value;
+    var contact = document.getElementById("cont").value;
+    console.log(name);
+    console.log(contact);
+}
+
+function update(){
+    var bal = 1000
+    document.getElementById("update_display").html = bal
+    
+}
