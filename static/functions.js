@@ -1,25 +1,25 @@
 function home(){
-    location.href="http://127.0.0.1:3000/aether/";
+    location.href="http://127.0.0.1:5000/aether/";
 }
 
 function sales(){
-    location.href="http://127.0.0.1:3000/aether/sales";
+    location.href="http://127.0.0.1:5000/aether/sales";
 }
 
 function bulk(){
-    location.href="http://127.0.0.1:3000/aether/bulk";
+    location.href="http://127.0.0.1:5000/aether/bulk";
 }
 
 function balance(){
-    location.href="http://127.0.0.1:3000/aether/balance";
+    location.href="http://127.0.0.1:5000/aether/balance";
 }
 
 function contacts(){
-    location.href="http://127.0.0.1:3000/aether/contacts";
+    location.href="http://127.0.0.1:5000/aether/contacts";
 }
 
 function account(){
-    location.href="http://127.0.0.1:3000/aether/account";
+    location.href="http://127.0.0.1:5000/aether/account";
 }
 
 function enter(){
@@ -39,5 +39,4 @@ function contact_store(){
 function update(){
     var bal = 1000
     document.getElementById("update_display").html = bal
-    
 }
